@@ -7,9 +7,9 @@ enum Genders {
     public String getSrc() {
         switch (this) {
             case MALE:
-                return "male_names.txt";
+                return "com/male_names.txt";
             case FEMALE:
-                return "female_names.txt";
+                return "com/female_names.txt";
             default:
                 return null;
         }
